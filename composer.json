@@ -1,0 +1,16 @@
+
+{
+  "name": "kirby/sendgrid",
+  "description": "Kirby Sendgrid Integration",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WAF GMBH",
+      "email": "office@waf.gmbh"
+    }
+  ],
+  "require": {
+    "sendgrid/sendgrid": "~7"
+  }
+}
