@@ -30,7 +30,7 @@ class SendGridProvider extends Kirby\Email\Email {
     }
 }
 
-Kirby::plugin('my/sendgrid', [
+Kirby::plugin('waf-gmbh/sendgrid', [
     'components' => [
         'email' => function ($kirby, $props, $debug) {
             return new SendGridProvider($props, $debug);
