@@ -8,7 +8,9 @@ class SendGridProvider extends Kirby\Email\Email {
       $email->setFrom($this->from(), $this->fromName());
       $email->setSubject($this->subject());
       $email->addTo(array_key_first($this->to()));
-      $email->addBCC(array_key_first($this->bcc()));
+      if ($this->bcc() != null) {
+        $email->addBCC(array_key_first($this->bcc()));
+      }
       $email->addContent('text/plain', $this->body()->text());
                         
       // authenticate      
