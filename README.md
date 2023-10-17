@@ -1,7 +1,5 @@
 # Sendgrid for Kirby
-This plugin replaces Kirby's native email component with SendGrid. The 
-implementation is optimized for use with kikokostadinov.com. It may need 
-tweaking if used for other Kirby-based projects.
+This plugin replaces Kirby's native email component with SendGrid.
 
 - This plugin requires Kirby 3.8 or higher
 - This plugin uses the SendGrid API V3
