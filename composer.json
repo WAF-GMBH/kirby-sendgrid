@@ -2,6 +2,7 @@
 {
   "name": "kirby/sendgrid",
   "description": "Kirby Sendgrid Integration",
+  "homepage": "https://github.com/WAF-GMBH/kirby-sendgrid",
   "type": "kirby-plugin",
   "license": "MIT",
   "authors": [
